@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text } from "../styles/main";
+import { Text, MainWrapper } from "../styles/main";
 
 const INTROS = [
   "Hi, I am Nehla",
@@ -10,13 +10,14 @@ const INTROS = [
 
 const Main: React.FC = () => {
   const [intro, setIntro] = useState<number>(0);
+
   return (
-    <section>
+    <MainWrapper>
       <h1></h1>
       <Text charLeng={INTROS[intro].length}>
         <p>{INTROS[intro]}</p>
       </Text>
-    </section>
+    </MainWrapper>
   );
 };
 

@@ -1,5 +1,13 @@
 import styled from "@emotion/styled";
-import { css } from "@emotion/css";
+// import { css } from "@emotion/css";
+// import BG from "../public/assets/bg.jpg";
+
+export const MainWrapper = styled.section<any>`
+  background-image: url(/assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+`;
 
 export const Text = styled.div<any>`
   height: 100vh;

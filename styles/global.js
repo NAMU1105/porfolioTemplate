@@ -8,10 +8,9 @@ export const globalStyles = (
       body {
         padding: 0;
         margin: 0;
-        background: papayawhip;
-        min-height: 100%;
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 24px;
+        min-height: 100vw;
+        /* font-family: Helvetica, Arial, sans-serif; */
+        /* font-size: 24px; */
       }
     `}
   />
