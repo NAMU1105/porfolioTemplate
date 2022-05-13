@@ -3,10 +3,15 @@ import styled from "@emotion/styled";
 // import BG from "../public/assets/bg.jpg";
 
 export const MainWrapper = styled.section<any>`
-  background-image: url(/assets/bg.jpg);
+  background-image: url(/assets/header.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center center; */
+  background-position: bottom;
+  /* transform: translateY(-45px); */
+  /* min-height: 100vh; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* position: relative; */
 `;
 
 export const Text = styled.div<any>`
@@ -25,6 +30,7 @@ export const Text = styled.div<any>`
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    color: white;
   }
 
   @keyframes typing {
@@ -39,3 +45,5 @@ export const Text = styled.div<any>`
     }
   }
 `;
+
+export const SNS = styled.div``;
